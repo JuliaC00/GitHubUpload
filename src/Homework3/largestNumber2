@@ -1,0 +1,18 @@
+package Homework3;
+
+public class largestNumber {
+    public static void main(String[] args) {
+
+        double number1=67.67;
+        double number2=567.98;
+        double number3=376.27;
+
+        if(number1>number2&&number1>number3){
+            System.out.println(number1+" is the largest value");}
+        if(number2>number3&&number2>number1){
+            System.out.println(number2+" is the largest value");}
+        if(number3>number2&&number3>number1){
+            System.out.println(number3+" is the largest value");}
+        }
+    }
+
