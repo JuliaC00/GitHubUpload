@@ -9,11 +9,12 @@ public class WhileLoop4 {
 
         boolean workDay=true;
         int day=1;
-        while(workDay){
-            System.out.println("I need a day off");
-            if(day>=6){
-                workDay=false;
-                    System.out.println("I do not need a day off anymore");}
+        while(day<8){
+            if(day<=5) {
+                System.out.println("I need a day off");
+            }else{
+                    System.out.println("I do not need a day off anymore");
+            workDay=false;}
             day++;
 
         }
